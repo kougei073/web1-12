@@ -1,6 +1,6 @@
 var answer = parseInt(window.prompt('Fizz-Buss問題　数字を入力してください'));
 
-for(var i = 0; i <= answer; i++){
+for(var i = 1; i <= answer; i++){
 var li = document.createElement('li');
  if(i % 3 === 0){
  li.textContent = 'Fizz';
