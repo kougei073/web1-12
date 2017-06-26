@@ -2,14 +2,14 @@ var answer = parseInt(window.prompt('Fizz-Buss問題　数字を入力してく�
 
 for(var i = 1; i <= answer; i++){
 var li = document.createElement('li');
- if(i % 3 === 0){
+  if(i % 15 === 0){
+ li.textContent = 'FizzBuzz';
+ }
+ else if(i % 3 === 0){
  li.textContent = 'Fizz';
  }
    else if(i % 5 === 0){
  li.textContent = 'Buzz';
- }
-   else if(i % 15 === 0){
- li.textContent = 'FizzBuzz';
  }
  else{
   li.textContent = i;
