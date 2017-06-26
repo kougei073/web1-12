@@ -1,4 +1,4 @@
-var answer = parseInt(window.prompt('Fizz-Buss問題　1~100の数字を入力してください'));
+var answer = parseInt(window.prompt('Fizz-Buss問題　1~100の数字を入力してください。'));
 
 for(var i = 1; i <= answer; i++){
 var li = document.createElement('li');
