@@ -2,7 +2,7 @@ var answer = parseInt(window.prompt('Fizz-Buss問題　1~100の数字を入力�
 
 for(var i = 1; i <= answer; i++){
 var li = document.createElement('li');
- if(i < 100){
+ if(100 < i){
   break;
  }else if(i % 3 === 0 && i % 5 === 0){
  li.textContent = 'FizzBuzz';
